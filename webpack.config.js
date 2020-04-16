@@ -2,6 +2,7 @@ var path = require('path');
 const getPreprocessor = require('svelte-preprocess');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const postcssPlugins = require('./postcss.config.js');
+const Dotenv = require('dotenv-webpack');
 
 const mode = process.env.NODE_ENV || 'development';
 const isDevBuild = mode !== 'production';
@@ -64,6 +65,7 @@ module.exports = {
 
   plugins: [
     new MiniCssExtractPlugin('main.css'),
+    new Dotenv()
   ]
 }
 

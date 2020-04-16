@@ -34,6 +34,7 @@
     "start": "webpack-dev-server --hot --inline --mode development"
   },
   "dependencies": {
+    "dotenv-webpack": "^1.7.0",
     "postcss-input-range": "^4.0.0",
     "postcss-url": "^8.0.0",
     "smelte": "latest",

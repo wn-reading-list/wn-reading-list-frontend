@@ -10,3 +10,5 @@ public/bundle.*
 public/main.*
 yarn.lock
 package-lock.json
+.idea/
+.env

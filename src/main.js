@@ -4,7 +4,7 @@ import './tailwind.css';
 const app = new App({
   target: document.body,
   props: {
-    name: 'world'
+    title: 'WN Reading List'
   }
 });
 
